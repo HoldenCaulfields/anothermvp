@@ -105,7 +105,7 @@ export default function CreateCandidateModal({ contestId }: CreateCandidateModal
                                         placeholder="Trần Thanh Trúc"
                                         value={formData.name}
                                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                                        className="w-full bg-slate-50 border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-rose-500 p-4 rounded-2xl outline-none transition-all font-bold"
+                                        className="w-full bg-slate-50 text-slate-900 border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-rose-500 p-4 rounded-2xl outline-none transition-all font-bold"
                                     />
                                 </div>
 
@@ -117,7 +117,7 @@ export default function CreateCandidateModal({ contestId }: CreateCandidateModal
                                             placeholder="001"
                                             value={formData.sbd}
                                             onChange={(e) => setFormData({ ...formData, sbd: e.target.value })}
-                                            className="w-full bg-slate-50 border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-rose-500 p-4 rounded-2xl outline-none transition-all font-bold"
+                                            className="w-full bg-slate-50  text-slate-900 border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-rose-500 p-4 rounded-2xl outline-none transition-all font-bold"
                                         />
                                     </div>
                                     {/* Field: Khoa */}
@@ -127,7 +127,7 @@ export default function CreateCandidateModal({ contestId }: CreateCandidateModal
                                             placeholder="Công nghệ"
                                             value={formData.dept}
                                             onChange={(e) => setFormData({ ...formData, dept: e.target.value })}
-                                            className="w-full bg-slate-50 border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-rose-500 p-4 rounded-2xl outline-none transition-all font-bold"
+                                            className="w-full bg-slate-50  text-slate-900 border-none ring-1 ring-slate-200 focus:ring-2 focus:ring-rose-500 p-4 rounded-2xl outline-none transition-all font-bold"
                                         />
                                     </div>
                                 </div>

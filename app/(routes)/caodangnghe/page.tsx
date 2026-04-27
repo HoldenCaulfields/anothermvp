@@ -376,9 +376,9 @@ function FeedPanel({ posts, onCreate, onComment, onLike, setTab }: { posts: Post
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 relative z-10">
           {[
+            { title: "Lớp học vui nhộn", img: "/ktdn.jpg", prize: "200.000đ" },
             { title: "Nam sinh ưu tú", img: "/nn.jpg", prize: "300.000đ" },
             { title: "Hoa khôi Cao Đẳng Nghề", img: "/hkh.jpg", prize: "300.000đ" },
-            { title: "Lớp học vui nhộn", img: "/ktdn.jpg", prize: "200.000đ" },
           ].map((c, i) => (
             <div key={i} className="bg-white/5 backdrop-blur-md rounded-3xl p-4 border border-white/10 group/item hover:bg-white/10 transition-all cursor-pointer">
               <div className="h-40 md:h-50 rounded-2xl overflow-hidden mb-4">

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   title: "LovelyNet",
   description: "Build for creators, by creators. Nơi kết nối ý tưởng và hiện thực hóa dự án.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/logo.svg",
   },
 };
 
